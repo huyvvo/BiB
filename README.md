@@ -1,5 +1,5 @@
 # Active Learning Strategies for Weakly-Supervised Object Detection
-by *Huy V. Vo, Oriane Siméoni, Spyros Gidaris, Andrei Bursuc, Patrick Pérez and Jean Ponce*, ECCV 2022 [[paper](https://put/link)] 
+by *Huy V. Vo, Oriane Siméoni, Spyros Gidaris, Andrei Bursuc, Patrick Pérez and Jean Ponce*, ECCV 2022 ([paper](https://arxiv.org/abs/2207.12112)) 
 
 Pytorch framework of our proposed Active Learning method **BiB** specifically designed for boosting weakly-supervised learning of object detectors by integrating *few well-selected fully-annotated* images. The following figure presents the benefit of the BiB selection allowing to mitigate the well-known *part domination* problem of weak-detectors.
 
@@ -47,7 +47,8 @@ pip install ninja yacs cython matplotlib tqdm opencv-python tensorboardX pycocot
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.1 -c pytorch
 
 # Install bib
-git clone https://github.com/huyvvo/BiB
+# git clone https://github.com/huyvvo/BiB
+unzip BiB.zip -d BiB
 cd BiB
 
 # Create folders
